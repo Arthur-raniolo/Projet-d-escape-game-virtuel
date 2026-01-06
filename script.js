@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // CODE
   let currentCode = '';
-  const correctCode = '424225';
+  const correctCode = '424325';
   const keys = document.querySelectorAll('.key');
   const codeDisplay = document.getElementById('codeDisplay');
   const clearBtn = document.getElementById('clearBtn');
