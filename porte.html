@@ -1,0 +1,54 @@
+<!--Language utilisé-->
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--Head-->
+<head>
+  <meta charset="UTF-8">
+  <!--Titre-->
+  <title>Porte</title>
+  <!--Lien style.css-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Body-->
+<body>
+  <!--Texte-->
+  <h1>Devant toi se dresse une porte, mais un cadenas en bloque la sortie. Peut-être qu’un indice caché dans la pièce te permettra d’en découvrir le code…</h1>
+<!--Mise en forme-->
+<div class="scene-container">
+  <!--Image-->
+  <img id="sceneImage" src="images/porte.png" alt="Scene">
+  <!--Code-->
+  <div class="lock" id="lock">
+    <div class="code-display" id="codeDisplay">------</div>
+    <div class="keypad">
+      <button class="key" data-num="1">1</button>
+      <button class="key" data-num="2">2</button>
+      <button class="key" data-num="3">3</button>
+      <button class="key" data-num="4">4</button>
+      <button class="key" data-num="5">5</button>
+      <button class="key" data-num="6">6</button>
+      <button class="key" data-num="7">7</button>
+      <button class="key" data-num="8">8</button>
+      <button class="key" data-num="9">9</button>
+      <button class="key" data-num="0">0</button>
+      <button class="key clear" id="clearBtn">Effacer</button>
+      <button class="key validate" id="validateBtn">Valider</button>
+    </div>
+  </div>
+</div>
+<!--Boutons-->
+<div class="button-container">
+  <button class="gameButton" id="startButton1">Enigme 1</button>
+  <button class="gameButton" id="startButton2">Enigme 2</button>
+  <button class="gameButton" id="startButton3">Enigme 3</button>
+  <button class="gameButton" id="startButton4">Enigme 4</button>
+  <button class="gameButton" id="startButton5">Enigme 5</button>
+  <button class="gameButton" id="startButton6">Enigme 6</button>
+  <button class="gameButton" id="startButton7">Solutions</button>
+</div>
+  <!--Lien script.js-->
+  <script src="script.js"></script>
+</body>
+</html>
